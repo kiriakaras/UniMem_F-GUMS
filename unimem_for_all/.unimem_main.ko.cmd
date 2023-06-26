@@ -1,0 +1,1 @@
+cmd_/UoMDataShare/kyriakos/unimem_for_all/unimem_main.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /UoMDataShare/kyriakos/unimem_for_all/unimem_main.ko /UoMDataShare/kyriakos/unimem_for_all/unimem_main.o /UoMDataShare/kyriakos/unimem_for_all/unimem_main.mod.o ;  true

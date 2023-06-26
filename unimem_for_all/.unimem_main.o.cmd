@@ -1,0 +1,1 @@
+cmd_/UoMDataShare/kyriakos/unimem_for_all/unimem_main.o := ld -m elf_x86_64  -z max-page-size=0x200000    -r -o /UoMDataShare/kyriakos/unimem_for_all/unimem_main.o /UoMDataShare/kyriakos/unimem_for_all/unimem_main2.o /UoMDataShare/kyriakos/unimem_for_all/unimem_ops.o 
